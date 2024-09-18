@@ -3,3 +3,4 @@ Whisper
 Parselmouth
 Lumpy
 Matplotlib
+googleads>=20.0.0
