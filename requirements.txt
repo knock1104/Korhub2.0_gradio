@@ -1,8 +1,8 @@
-Radio
-Whisper
-Parselmouth
-Lumpy
-Matplotlib
-googleads==3.8.0  # parselmouth와 호환되는 버전으로 수정
+gradio
+whisper
+parselmouth
+lumpy
+matplotlib
+googleads>=43.0.0  # 최신 버전으로 업데이트
 click<8,>=7
 six
