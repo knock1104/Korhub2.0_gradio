@@ -3,6 +3,6 @@ whisper
 parselmouth
 lumpy
 matplotlib
-googleads>=43.0.0  # 최신 버전으로 업데이트
+googleads==3.8.0  # 버전을 낮춤
 click<8,>=7
 six
