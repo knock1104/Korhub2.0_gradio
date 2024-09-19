@@ -141,4 +141,4 @@ def create_ui():
 
 # Gradio 앱 실행
 demo = create_ui()
-demo.launch(share=True)
+demo.launch(share=True, server_port=8000)
