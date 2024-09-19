@@ -3,4 +3,6 @@ Whisper
 Parselmouth
 Lumpy
 Matplotlib
-googleads>=20.0.0
+googleads==3.8.0  # parselmouth와 호환되는 버전으로 수정
+click<8,>=7
+six
