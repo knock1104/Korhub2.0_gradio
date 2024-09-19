@@ -141,6 +141,8 @@ def create_ui():
     return demo
 
 # Gradio 앱 실행
-port = int(os.getenv('PORT', 7860))  # 환경 변수 PORT가 있으면 그 포트를 사용, 없으면 7860 사용
-demo = create_ui()
+import os
+
+# Use the 'PORT' environment variable from Koyeb
+port = int(os.getenv('PORT', 8000))  # Default to 8000 if 'PORT' is not set
 demo.launch(share=True, server_port=port)
