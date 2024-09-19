@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Whisper 모델 불러오기
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 # 한글 폰트 설정 (NanumGothic 사용)
 plt.rcParams['font.family'] = 'NanumGothic'
